@@ -273,9 +273,9 @@ display: flex;
  font-style: normal;
 }
 .adres-list {
+    font-style: normal;
     list-style: none;
-       list-style: none;
-       text-decoration: none;
+    text-decoration: none;
 }
 .adres-text {
         font-size: 14px;
@@ -286,7 +286,7 @@ display: flex;
 .adres-item {
    margin-bottom: 9px;
 }
-.adres-item :last-child {
+.adres-list :last-child {
     margin-bottom: 0;
 }
 .adres-link {
